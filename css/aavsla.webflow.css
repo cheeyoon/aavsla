@@ -483,6 +483,10 @@ html.w-mod-js *[data-ix="slide-up-4"] {
     right: 0px;
     bottom: -25%;
   }
+  .placetext {
+    font-size: 50px;
+    line-height: 55px;
+  }
 }
 
 @media (max-width: 767px) {
