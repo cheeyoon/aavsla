@@ -153,7 +153,10 @@
 }
 
 .subtitle.black {
+  display: block;
   margin-top: 25px;
+  margin-right: auto;
+  margin-left: auto;
   color: #333;
   font-weight: 700;
 }
