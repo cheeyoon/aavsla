@@ -98,7 +98,7 @@
 .text {
   display: block;
   width: 80%;
-  margin-top: 50px;
+  margin-top: 35px;
   margin-right: auto;
   margin-left: auto;
   font-family: 'Open Sans', sans-serif;
@@ -133,8 +133,8 @@
 .home {
   width: 100vw;
   height: 100vh;
-  background-image: url('../images/home.svg'), -webkit-linear-gradient(270deg, rgba(255, 255, 0, .9), rgba(0, 255, 255, .9));
-  background-image: url('../images/home.svg'), linear-gradient(180deg, rgba(255, 255, 0, .9), rgba(0, 255, 255, .9));
+  background-image: url('../images/home.svg'), -webkit-linear-gradient(270deg, rgba(255, 255, 0, .9), rgba(0, 255, 255, .7));
+  background-image: url('../images/home.svg'), linear-gradient(180deg, rgba(255, 255, 0, .9), rgba(0, 255, 255, .7));
   background-position: 50% 52%, 0px 0px;
   background-size: auto 4000px, auto;
   background-repeat: no-repeat, repeat;
@@ -181,36 +181,15 @@
 
 .people {
   width: 100vw;
-  height: 1300px;
   background-color: #fff;
-}
-
-.subtext {
-  margin-bottom: 25px;
-  font-family: 'Open Sans', sans-serif;
-  color: #505050;
-  font-size: 12px;
-  font-weight: 300;
-}
-
-.subtext.list {
-  position: relative;
-  left: 0px;
-  top: -20px;
-  right: 0px;
-  margin-bottom: 50px;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px;
-  font-weight: 300;
-  text-align: center;
 }
 
 .apply {
   width: 100vw;
   height: 100vh;
   padding-bottom: 50px;
-  background-image: -webkit-linear-gradient(270deg, rgba(0, 255, 255, .9), rgba(0, 255, 153, .9));
-  background-image: linear-gradient(180deg, rgba(0, 255, 255, .9), rgba(0, 255, 153, .9));
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 255, 255, .9), rgba(0, 255, 153, .7));
+  background-image: linear-gradient(180deg, rgba(0, 255, 255, .9), rgba(0, 255, 153, .7));
 }
 
 .input {
@@ -306,10 +285,6 @@
 .img {
   display: block;
   margin: 50px auto 25px;
-}
-
-.img.profile {
-  border-radius: 100px;
 }
 
 .button {
@@ -414,6 +389,194 @@
   line-height: 65px;
   font-weight: 300;
   text-align: center;
+}
+
+.cardwrapper {
+  height: 400px;
+}
+
+.column {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.imgcard {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  height: 400px;
+}
+
+.aboutcard {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  z-index: 0;
+  height: 400px;
+  border-bottom: 5px solid #000;
+  background-image: -webkit-linear-gradient(270deg, #fff, #fff);
+  background-image: linear-gradient(180deg, #fff, #fff);
+  opacity: 0;
+  -webkit-transition: opacity 1000ms ease;
+  transition: opacity 1000ms ease;
+}
+
+.aboutcard:hover {
+  opacity: 1;
+}
+
+.profile1 {
+  display: block;
+  width: 250px;
+  height: 250px;
+  margin-top: 75px;
+  margin-right: auto;
+  margin-left: auto;
+  background-image: url('../images/eulalia.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+
+.profile2 {
+  display: block;
+  width: 250px;
+  height: 250px;
+  margin-top: 75px;
+  margin-right: auto;
+  margin-left: auto;
+  background-image: url('../images/devin.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.profile3 {
+  display: block;
+  width: 250px;
+  height: 250px;
+  margin-top: 75px;
+  margin-right: auto;
+  margin-left: auto;
+  background-image: url('../images/daniella.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.profile4 {
+  display: block;
+  width: 250px;
+  height: 250px;
+  margin-top: 75px;
+  margin-right: auto;
+  margin-left: auto;
+  background-image: url('../images/jordan.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.profile5 {
+  display: block;
+  width: 250px;
+  height: 250px;
+  margin-top: 75px;
+  margin-right: auto;
+  margin-left: auto;
+  background-image: url('../images/kevin.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.profile6 {
+  display: block;
+  width: 250px;
+  height: 250px;
+  margin-top: 75px;
+  margin-right: auto;
+  margin-left: auto;
+  background-image: url('../images/hamzah.jpg');
+  background-position: 50% 15%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.profile7 {
+  display: block;
+  width: 250px;
+  height: 250px;
+  margin-top: 75px;
+  margin-right: auto;
+  margin-left: auto;
+  background-image: url('../images/eduardo.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.profile8 {
+  display: block;
+  width: 250px;
+  height: 250px;
+  margin-top: 75px;
+  margin-right: auto;
+  margin-left: auto;
+  background-image: url('../images/cheeyoon.jpg');
+  background-position: 50% 50%;
+  background-size: 300px;
+}
+
+.company1 {
+  height: 400px;
+  background-image: url('../images/sa.png');
+  background-position: 50% 50%;
+  background-size: 150px;
+  background-repeat: no-repeat;
+}
+
+.company2 {
+  height: 400px;
+  background-image: url('../images/VRLA_logo.png');
+  background-position: 50% 50%;
+  background-size: 150px;
+  background-repeat: no-repeat;
+}
+
+.company3 {
+  height: 400px;
+  background-image: url('../images/YOYUU_logo.png');
+  background-position: 50% 50%;
+  background-size: 200px;
+  background-repeat: no-repeat;
+}
+
+.company4 {
+  height: 400px;
+  background-image: url('../images/goldenvoice.png');
+  background-position: 50% 50%;
+  background-size: 200px;
+  background-repeat: no-repeat;
+}
+
+.company5 {
+  height: 400px;
+  background-image: url('../images/navel.png');
+  background-position: 50% 50%;
+  background-size: 150px;
+  background-repeat: no-repeat;
+}
+
+.company6 {
+  height: 400px;
+  background-image: url('../images/curatela.png');
+  background-position: 50% 50%;
+  background-size: 150px;
+  background-repeat: no-repeat;
 }
 
 html.w-mod-js *[data-ix="slide-down"] {
@@ -543,9 +706,6 @@ html.w-mod-js *[data-ix="slide-up-4"] {
   }
   .people {
     height: auto;
-  }
-  .subtext {
-    margin-bottom: 50px;
   }
   .apply {
     height: auto;
