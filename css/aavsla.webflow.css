@@ -474,7 +474,7 @@
   margin-top: 75px;
   margin-right: auto;
   margin-left: auto;
-  background-image: url('../images/jordan.JPG');
+  background-image: url('../images/jordan.jpg');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -519,7 +519,7 @@
   background-repeat: no-repeat;
 }
 
-.profile8 {
+.profile {
   display: block;
   width: 250px;
   height: 250px;
@@ -529,6 +529,13 @@
   background-image: url('../images/cheeyoon.jpg');
   background-position: 50% 50%;
   background-size: 300px;
+  background-repeat: no-repeat;
+}
+
+.profile._9 {
+  background-image: url('../images/karla.jpg');
+  background-position: 50% 0px;
+  background-size: cover;
 }
 
 .company1 {
