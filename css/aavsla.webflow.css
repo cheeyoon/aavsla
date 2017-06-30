@@ -474,7 +474,7 @@
   margin-top: 75px;
   margin-right: auto;
   margin-left: auto;
-  background-image: url('../images/jordan.JPG');
+  background-image: url('../images/jordan.jpg');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -548,21 +548,13 @@
 
 .company2 {
   height: 400px;
-  background-image: url('../images/VRLA_logo.png');
-  background-position: 50% 50%;
-  background-size: 150px;
-  background-repeat: no-repeat;
-}
-
-.company3 {
-  height: 400px;
-  background-image: url('../images/YOYUU_logo.png');
+  background-image: url('../images/houdini.png');
   background-position: 50% 50%;
   background-size: 200px;
   background-repeat: no-repeat;
 }
 
-.company4 {
+.company3 {
   height: 400px;
   background-image: url('../images/goldenvoice.png');
   background-position: 50% 50%;
@@ -570,9 +562,17 @@
   background-repeat: no-repeat;
 }
 
+.company4 {
+  height: 400px;
+  background-image: url('../images/wnl.png');
+  background-position: 50% 50%;
+  background-size: 150px;
+  background-repeat: no-repeat;
+}
+
 .company5 {
   height: 400px;
-  background-image: url('../images/navel.png');
+  background-image: url('../images/VRLA_logo.png');
   background-position: 50% 50%;
   background-size: 150px;
   background-repeat: no-repeat;
@@ -583,6 +583,56 @@
   background-image: url('../images/curatela.png');
   background-position: 50% 50%;
   background-size: 150px;
+  background-repeat: no-repeat;
+}
+
+.company7 {
+  height: 400px;
+  background-image: url('../images/rue.png');
+  background-position: 50% 50%;
+  background-size: 150px;
+  background-repeat: no-repeat;
+}
+
+.company8 {
+  height: 400px;
+  background-image: url('../images/navel.png');
+  background-position: 50% 50%;
+  background-size: 150px;
+  background-repeat: no-repeat;
+}
+
+.company9 {
+  height: 400px;
+  background-image: url('../images/YOYUU_logo.png');
+  background-position: 50% 50%;
+  background-size: 200px;
+  background-repeat: no-repeat;
+}
+
+.profile9 {
+  display: block;
+  width: 250px;
+  height: 250px;
+  margin-top: 75px;
+  margin-right: auto;
+  margin-left: auto;
+  background-image: url('../images/alex.jpg');
+  background-position: 50% 50%;
+  background-size: 250px;
+  background-repeat: no-repeat;
+}
+
+.profile10 {
+  display: block;
+  width: 250px;
+  height: 250px;
+  margin-top: 75px;
+  margin-right: auto;
+  margin-left: auto;
+  background-image: url('../images/roger.jpg');
+  background-position: 50% 50%;
+  background-size: 250px;
   background-repeat: no-repeat;
 }
 
