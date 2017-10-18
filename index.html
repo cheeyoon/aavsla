@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<!--  This site was created in Webflow. http://www.webflow.com -->
-<!--  Last Published: Thu Jul 06 2017 04:06:14 GMT+0000 (UTC)  -->
+<!--  This site was created in Webflow. http://www.webflow.com  -->
+<!--  Last Published: Wed Oct 18 2017 12:50:04 GMT+0000 (UTC)  -->
 <html data-wf-page="5823a6d3e7159f7b2334ce0c" data-wf-site="5823a6d3e7159f7b2334ce09">
 <head>
   <meta charset="utf-8">
@@ -15,79 +15,67 @@
   <link href="css/normalize.css" rel="stylesheet" type="text/css">
   <link href="css/webflow.css" rel="stylesheet" type="text/css">
   <link href="css/aavsla.webflow.css" rel="stylesheet" type="text/css">
-  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
-  <script type="text/javascript">
-    WebFont.load({
-      google: {
-        families: ["Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic"]
-      }
-    });
-  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js" type="text/javascript"></script>
+  <script type="text/javascript">WebFont.load({  google: {    families: ["Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic"]  }});</script>
   <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
-  <script type="text/javascript">
-    !function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);
-  </script>
+  <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
   <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
   <link href="images/webclip.png" rel="apple-touch-icon">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <script src="https://cdn.rawgit.com/hellogerard/jquery.typer.js/pr-1/src/jquery.typer.js"></script>
-  <script>
-    $.noConflict();
-    jQuery(document).ready(function($){
-    		$('[data-typer-targets]').typer();
-    		$.typer.options.typerOrder = 'random';
-            $.typer.options.initialDelay = 1000;
-            $.typer.options.highlightColor = '#333';
-            $.typer.options.textColor = '#00ffad';
-    	});
-  </script>
+  <script> 
+$.noConflict();
+jQuery(document).ready(function($){
+		$('[data-typer-targets]').typer();
+		$.typer.options.typerOrder = 'random';
+        $.typer.options.initialDelay = 1000;
+        $.typer.options.highlightColor = '#333';
+        $.typer.options.textColor = '#00ffad';
+	});
+</script>
 </head>
 <body>
-  <div class="bgvideo w-background-video" data-autoplay="data-autoplay" data-loop="data-loop" data-poster-url="videos/bgvideo2-poster-00001.jpg" data-video-urls="videos/bgvideo2-transcode.webm,videos/bgvideo2-transcode.mp4" data-wf-ignore="data-wf-ignore"></div>
-  <div class="topbar w-nav" data-animation="default" data-collapse="medium" data-duration="400" data-ix="slide-down" data-no-scroll="1">
-    <div class="navbar w-container"><a class="toplogo w-hidden-main w-nav-brand" href="#home"><h1 class="topbarlogo">AAVS:LA</h1></a>
-      <nav class="navmenu w-nav-menu" role="navigation"><a class="navlink w-nav-link" href="#home">Home</a><a class="navlink w-nav-link" href="#about">About</a><a class="navlink w-nav-link" href="#place">Place</a><a class="navlink w-nav-link" href="#people">People</a><a class="navlink w-nav-link" href="#past">Past</a><a class="navlink w-nav-link" href="#apply">Apply</a>
-      </nav>
+  <div class="bgvideo w-embed"><video playsinline="" autoplay="" loop="" muted="" style="height:100%">
+ 	<source type="video/mp4" src="http://aavs.la/videos/bgvideo2-transcode.mp4">
+ 	<source type="video/webm" src="http://aavs.la/videos/bgvideo2-transcode.webm">
+</video></div>
+  <div data-autoplay="true" data-loop="true" data-wf-ignore="true" data-poster-url="videos/bgvideo2-poster-00001.jpg" data-video-urls="videos/bgvideo2-transcode.webm,videos/bgvideo2-transcode.mp4" class="bgvideo w-background-video w-background-video-atom w-hidden-main w-hidden-medium w-hidden-small w-hidden-tiny"><video autoplay="" loop="" style="background-image:url(&quot;videos/bgvideo2-poster-00001.jpg&quot;);" data-wf-ignore="true"><source src="videos/bgvideo2-transcode.webm" data-wf-ignore="true"><source src="videos/bgvideo2-transcode.mp4" data-wf-ignore="true"></video></div>
+  <div data-collapse="medium" data-animation="default" data-duration="400" data-ix="slide-down" data-no-scroll="1" class="topbar w-nav">
+    <div class="navbar w-container">
+      <a href="#home" class="toplogo w-hidden-main w-nav-brand">
+        <h1 class="topbarlogo">AAVS:LA</h1>
+      </a>
+      <nav role="navigation" class="navmenu w-nav-menu"><a href="#home" class="navlink w-nav-link">Home</a><a href="#about" class="navlink w-nav-link">About</a><a href="#place" class="navlink w-nav-link">Place</a><a href="#people" class="navlink w-nav-link">People</a><a href="#past" class="navlink w-nav-link">Past</a><a href="#apply" class="navlink w-nav-link">Apply</a></nav>
       <div class="menubutton w-nav-button">
         <div class="w-icon-nav-menu"></div>
       </div>
     </div>
   </div>
-  <div class="home" id="home">
+  <div id="home" class="home">
     <div class="content cover w-container">
       <div class="w-row">
-        <div class="w-col w-col-6" data-ix="slide-up">
+        <div data-ix="slide-up" class="w-col w-col-6">
           <h2 class="cover subtitle">using sound to simulate a series of vr installations for music festivals</h2>
         </div>
-        <div class="w-col w-col-6" data-ix="slide-up-2"><a class="button cover w-button" href="https://www.aaschool.ac.uk/STUDY/VISITING/losangeles" target="_blank">Apply for Workshop</a>
-        </div>
+        <div data-ix="slide-up-2" class="w-col w-col-6"><a href="https://www.aaschool.ac.uk/STUDY/VISITING/losangeles" target="_blank" class="button cover w-button">Apply for Workshop</a></div>
       </div>
     </div>
-    <div class="poweredby w-container" data-ix="slide-up-3"><img class="img" sizes="(max-width: 767px) 25px, (max-width: 991px) 3vw, 25px" src="images/AA_white.png" srcset="images/AA_white-p-500x500.png 500w, images/AA_white-p-800x800.png 800w, images/AA_white-p-1080x1080.png 1080w, images/AA_white.png 1400w" width="25">
-      <div class="superarchitects"><a target="_blank" href="https://www.aaschool.ac.uk/" class="link">Architectural Association</a>
-      </div>
+    <div data-ix="slide-up-3" class="poweredby w-container"><img src="images/AA_white.png" width="25" srcset="images/AA_white-p-500x500.png 500w, images/AA_white-p-800x800.png 800w, images/AA_white-p-1080x1080.png 1080w, images/AA_white.png 1400w" sizes="(max-width: 767px) 25px, (max-width: 991px) 3vw, 25px" class="img">
+      <div class="superarchitects"><a target="_blank" href="https://www.aaschool.ac.uk/" class="link">Architectural Association</a></div>
     </div>
   </div>
-  <div class="about" id="about">
+  <div id="about" class="about">
     <div class="content w-container">
       <h2 class="black subtitle">About L.A. Experiential</h2>
-      <div class="text"><strong>L.A. Experiential II</strong> builds on last year’s edition and on Los Angeles’ role as the world’s entertainment capital. Informed by the fast-paced entertainment industry, students will be asked to design an installation for a music festival venue. Students will be presented with typical variables of the festival industry and will challenge the limitations caused by standard material consciousness, budget, client needs, along with the prolonged complication of building construction.
-        <br>
-        <br>Students will continue exploring new forms of spatial experiences for the media, entertainment, and music festival venues with the added element of virtual reality. So rather than thinking of architecture as a physical/static set for events or performances, a new type of architecture using technology will allow us to tap into unrealized spatial experiences.
-        <br>
-        <br>Students will simultaneously work through the physical, digital, and virtual world(s), as a design, representation, and experience strategy. All participants will face the challenge of physical constraints and the alternative grounds of experimentation through virtual platforms.
-        <br>
-        <br>They will experiment the duality of “real” and “virtual” and how it can stimulate or promote new senses achieved through visual and ephemeral technologies that can take over portions of the public realm, to expand architecture and urban space into a performance oriented space.&nbsp;Music, Theatre and Visual Art will conspire and transport us into a new realm of urban and architectural venture.</div>
+      <div class="text"><strong>L.A. Experiential II</strong> builds on last year’s edition and on Los Angeles’ role as the world’s entertainment capital. Informed by the fast-paced entertainment industry, students will be asked to design an installation for a music festival venue. Students will be presented with typical variables of the festival industry and will challenge the limitations caused by standard material consciousness, budget, client needs, along with the prolonged complication of building construction.<br><br>Students will continue exploring new forms of spatial experiences for the media, entertainment, and music festival venues with the added element of virtual reality. So rather than thinking of architecture as a physical/static set for events or performances, a new type of architecture using technology will allow us to tap into unrealized spatial experiences.<br><br>Students will simultaneously work through the physical, digital, and virtual world(s), as a design, representation, and experience strategy. All participants will face the challenge of physical constraints and the alternative grounds of experimentation through virtual platforms.<br><br>They will experiment the duality of “real” and “virtual” and how it can stimulate or promote new senses achieved through visual and ephemeral technologies that can take over portions of the public realm, to expand architecture and urban space into a performance oriented space. Music, Theatre and Visual Art will conspire and transport us into a new realm of urban and architectural venture.</div>
     </div>
   </div>
-  <div class="place" id="place">
+  <div id="place" class="place">
     <div class="content w-container">
       <h2 class="black subtitle">Taking Place <a target="_blank" href="http://therue.space/" class="linkblack">@therue.space</a></h2>
-      <p class="placetext w-hidden-small w-hidden-tiny">"A hyperactive <span data-typer-targets="office,gallery,space,hothouse,workshop,lab,field,extension" class="typer">hothouse</span> for interdisciplinary
-        <br>creatives"</p><img class="img" sizes="100vw" src="images/AAVSLA-SPACE-WEB.png" srcset="images/AAVSLA-SPACE-WEB-p-500x304.png 500w, images/AAVSLA-SPACE-WEB-p-800x486.png 800w, images/AAVSLA-SPACE-WEB-p-1080x656.png 1080w, images/AAVSLA-SPACE-WEB-p-1600x972.png 1600w, images/AAVSLA-SPACE-WEB.png 3707w">
-    </div>
+      <p class="placetext w-hidden-small w-hidden-tiny">&quot;A hyperactive <span data-typer-targets="office,gallery,space,hothouse,workshop,lab,field,extension" class="typer">hothouse</span> for interdisciplinary<br>creatives&quot;</p><img src="images/AAVSLA-SPACE-WEB.png" srcset="images/AAVSLA-SPACE-WEB-p-500x304.png 500w, images/AAVSLA-SPACE-WEB-p-800x486.png 800w, images/AAVSLA-SPACE-WEB-p-1080x656.png 1080w, images/AAVSLA-SPACE-WEB-p-1600x972.png 1600w, images/AAVSLA-SPACE-WEB.png 3707w" sizes="(max-width: 767px) 100vw, (max-width: 991px) 728px, 940px" class="img"></div>
   </div>
-  <div class="people" id="people">
+  <div id="people" class="people">
     <div class="w-row">
       <div class="column w-col w-col-6">
         <div class="cardwrapper">
@@ -117,7 +105,7 @@
             <div class="profile4"></div>
           </div>
           <div class="aboutcard">
-            <p class="text"><strong>Jordan Hartman</strong> holds a B.Arch from SCI-Arc. His interest lies in the creation of immersive experiences driven by the emerging &nbsp;possibilities granted by new-tech. His expertise consist of digital design, fabrication, and music, which directly correlates with his company - RedHouse Productions, mixed media events bridging music and virtual reality. He continues to explore audio simulations and immersive interactive environments.</p>
+            <p class="text"><strong>Jordan Hartman</strong> holds a B.Arch from SCI-Arc. His interest lies in the creation of immersive experiences driven by the emerging  possibilities granted by new-tech. His expertise consist of digital design, fabrication, and music, which directly correlates with his company - RedHouse Productions, mixed media events bridging music and virtual reality. He continues to explore audio simulations and immersive interactive environments.</p>
           </div>
         </div>
       </div>
@@ -127,7 +115,7 @@
             <div class="profile6"></div>
           </div>
           <div class="aboutcard">
-            <p class="text"><strong>Hamzah S. Mohammed</strong> holds a BS from Texas Tech University and is a M.ARCH II Candidate at SCI-Arc. His specialization is found in the area of integrating cinematic tools when speculating about Virtual Space. These tools include particle simulation through Bifröst, character rigging in MAYA, and scene assembly in VUE. Some of his work include the cinematic VR Experience “BabaGanesh” &nbsp;with the collaboration of Jordan Hartman.</p>
+            <p class="text"><strong>Hamzah S. Mohammed</strong> holds a BS from Texas Tech University and is a M.ARCH II Candidate at SCI-Arc. His specialization is found in the area of integrating cinematic tools when speculating about Virtual Space. These tools include particle simulation through Bifröst, character rigging in MAYA, and scene assembly in VUE. Some of his work include the cinematic VR Experience “BabaGanesh”  with the collaboration of Jordan Hartman.</p>
           </div>
         </div>
       </div>
@@ -137,7 +125,7 @@
             <div class="profile5"></div>
           </div>
           <div class="aboutcard">
-            <p class="text"><strong>Kevin Arango</strong> holds a B.Arch degree from SCI-Arc. His current interest lies in architecture's powerful relationship to world building with agent-based simulations, procedural production methods and how these techniques can be deployed to explore innovative design methodologies.</p>
+            <p class="text"><strong>Kevin Arango</strong> holds a B.Arch degree from SCI-Arc. His current interest lies in architecture&#x27;s powerful relationship to world building with agent-based simulations, procedural production methods and how these techniques can be deployed to explore innovative design methodologies.</p>
           </div>
         </div>
       </div>
@@ -159,7 +147,7 @@
             <div class="profile3"></div>
           </div>
           <div class="aboutcard">
-            <p class="text"><strong>Karla&nbsp;Marukoglu</strong>&nbsp;is a B.Arch candidate from Cal Poly Pomona. While interning with Burdge and Associates, she brought many projects to life and gained experience working in a team setting.&nbsp;Karla&nbsp;has completed study abroad programs in Oxford, Geneva, Istanbul, and Vienna. She plans to continue her career in Architecture and looks forward to work on numerous diverse projects in order to foster and develop promising techniques and skills.</p>
+            <p class="text"><strong>Karla Marukoglu</strong> is a B.Arch candidate from Cal Poly Pomona. While interning with Burdge and Associates, she brought many projects to life and gained experience working in a team setting. Karla has completed study abroad programs in Oxford, Geneva, Istanbul, and Vienna. She plans to continue her career in Architecture and looks forward to work on numerous diverse projects in order to foster and develop promising techniques and skills.</p>
           </div>
         </div>
       </div>
@@ -169,7 +157,7 @@
             <div class="profile"></div>
           </div>
           <div class="aboutcard">
-            <p class="text"><strong>Cheeyoon Lee</strong>&nbsp;is a UI/UX and product designer with a B.Arch from SCI-Arc. He has worked on several startups during his studies, and formerly cofounded Thinkerous, an enterprise innovation management platform for identifying impactful ideas. He continues to explore the convergence of tech and design, and spends his time as a collaborator at The RUE Space, freelancing and taking on creative projects.</p>
+            <p class="text"><strong>Cheeyoon Lee</strong> is a UI/UX and product designer with a B.Arch from SCI-Arc. He has worked on several startups during his studies, and formerly cofounded Thinkerous, an enterprise innovation management platform for identifying impactful ideas. He continues to explore the convergence of tech and design, and spends his time as a collaborator at The RUE Space, freelancing and taking on creative projects.</p>
           </div>
         </div>
       </div>
@@ -191,7 +179,7 @@
             <div class="profile10"></div>
           </div>
           <div class="aboutcard">
-            <p class="text"><strong>Roger Lima</strong>&nbsp;is the founder of White Noise Lab, a Music Composition + Sound Design studio based in Los Angeles, California, currently serving agencies and production companies all around the globe. He works with Agencies, Production Companies and Brands on projects for Films, Broadcast, Interactive Websites, Corporate Videos, Video Games and Experimental Projects. He has collaborated with companies such as Under Armour, Ford, Kia, MTV, Ubisoft, Paramount Pictures, Warner Bros, Coke, Swiss Army, Adidas, Red Hat, Nike, Teva, Zazzle, IBM, Ebay, Universal Pictures, and more.</p>
+            <p class="text"><strong>Roger Lima</strong> is the founder of White Noise Lab, a Music Composition + Sound Design studio based in Los Angeles, California, currently serving agencies and production companies all around the globe. He works with Agencies, Production Companies and Brands on projects for Films, Broadcast, Interactive Websites, Corporate Videos, Video Games and Experimental Projects. He has collaborated with companies such as Under Armour, Ford, Kia, MTV, Ubisoft, Paramount Pictures, Warner Bros, Coke, Swiss Army, Adidas, Red Hat, Nike, Teva, Zazzle, IBM, Ebay, Universal Pictures, and more.</p>
           </div>
         </div>
       </div>
@@ -213,7 +201,7 @@
             <div class="company2"></div>
           </div>
           <div class="aboutcard">
-            <p class="text"><strong>Houdini</strong> is a 3D animation application software developed by Side Effects Software based in Toronto. SideFX adapted Houdini from the PRISMS suite of procedural generation software tools. Its exclusive attention to procedural generation distinguishes it from other 3D computer graphics software. Houdini has been used in various feature animation productions, including Disney's feature films Frozen and Zootopia; the Blue Sky Studios film Rio, and DNA Productions' Ant Bully.</p>
+            <p class="text"><strong>Houdini</strong> is a 3D animation application software developed by Side Effects Software based in Toronto. SideFX adapted Houdini from the PRISMS suite of procedural generation software tools. Its exclusive attention to procedural generation distinguishes it from other 3D computer graphics software. Houdini has been used in various feature animation productions, including Disney&#x27;s feature films Frozen and Zootopia; the Blue Sky Studios film Rio, and DNA Productions&#x27; Ant Bully.</p>
           </div>
         </div>
       </div>
@@ -223,7 +211,7 @@
             <div class="company3"></div>
           </div>
           <div class="aboutcard">
-            <p class="text"><strong>Goldenvoice</strong>&nbsp;is concerts and festivals. Buy concert tickets and get the latest concert, presale, and festival announcements.</p>
+            <p class="text"><strong>Goldenvoice</strong> is concerts and festivals. Buy concert tickets and get the latest concert, presale, and festival announcements.</p>
           </div>
         </div>
       </div>
@@ -235,7 +223,7 @@
             <div class="company4"></div>
           </div>
           <div class="aboutcard">
-            <p class="text"><strong>White Noise Lab</strong> is a Music Composition + Sound Design studio based in Los Angeles, California, and currently serving agencies and production companies all around the globe.&nbsp;At&nbsp;White Noise Lab,&nbsp;we work with Agencies,&nbsp;Production Companies and Brands on projects for Films, Broadcast, Interactive Websites, Corporate Videos, Video Games and Experimental Projects.</p>
+            <p class="text"><strong>White Noise Lab</strong> is a Music Composition + Sound Design studio based in Los Angeles, California, and currently serving agencies and production companies all around the globe. At White Noise Lab, we work with Agencies, Production Companies and Brands on projects for Films, Broadcast, Interactive Websites, Corporate Videos, Video Games and Experimental Projects.</p>
           </div>
         </div>
       </div>
@@ -245,7 +233,7 @@
             <div class="company5"></div>
           </div>
           <div class="aboutcard">
-            <p class="text"><strong>VRLA</strong>&nbsp;is the world's largest virtual and augmented reality expo, welcoming both consumers&nbsp;and&nbsp;industry professionals. The expo will feature cutting-edge demos of the most exciting projects in development for the Oculus Rift, HTC Vive, PlayStation VR, Google Cardboard, Samsung GearVR, and more! Each day will be stacked with a lineup of insightful presentations, panels, and announcements.</p>
+            <p class="text"><strong>VRLA</strong> is the world&#x27;s largest virtual and augmented reality expo, welcoming both consumers and industry professionals. The expo will feature cutting-edge demos of the most exciting projects in development for the Oculus Rift, HTC Vive, PlayStation VR, Google Cardboard, Samsung GearVR, and more! Each day will be stacked with a lineup of insightful presentations, panels, and announcements.</p>
           </div>
         </div>
       </div>
@@ -255,7 +243,7 @@
             <div class="company6"></div>
           </div>
           <div class="aboutcard">
-            <p class="text"><strong>Redhouse Productions</strong> positions&nbsp;itself at the intersection between music and media. &nbsp;Our goal is to provide our community with one of a kind mixed media experience.</p>
+            <p class="text"><strong>Redhouse Productions</strong> positions itself at the intersection between music and media.  Our goal is to provide our community with one of a kind mixed media experience.</p>
           </div>
         </div>
       </div>
@@ -267,7 +255,7 @@
             <div class="company7"></div>
           </div>
           <div class="aboutcard">
-            <p class="text"><strong>The Rue</strong> is a hyper-active hothouse incubating emerging creatives with interests in mixed-media, design, and physical/digital technology. this space draws a diverse collective of forward-thinking affiliates that will develop in parallel with their peers, instigating the notion of "the great group" effect.</p>
+            <p class="text"><strong>The Rue</strong> is a hyper-active hothouse incubating emerging creatives with interests in mixed-media, design, and physical/digital technology. this space draws a diverse collective of forward-thinking affiliates that will develop in parallel with their peers, instigating the notion of &quot;the great group&quot; effect.</p>
           </div>
         </div>
       </div>
@@ -277,7 +265,7 @@
             <div class="company8"></div>
           </div>
           <div class="aboutcard">
-            <p class="text"><strong>NAVEL</strong>&nbsp;is a test site for collective enterprise.</p>
+            <p class="text"><strong>NAVEL</strong> is a test site for collective enterprise.</p>
           </div>
         </div>
       </div>
@@ -287,381 +275,405 @@
             <div class="company9"></div>
           </div>
           <div class="aboutcard">
-            <p class="text"><strong>YOYUU Creative</strong>&nbsp;is a media agency based in New York City and Los Angeles, providing creative direction, mixed-media production, and content. Established in 2015, the agency is built on the belief that great design can help transform the experience.&nbsp;We advise companies on modern approaches to brand &amp; business challenges. Collaborating with leadership of organizations, we define and realize new vision through communication strategy, storytelling and design.</p>
+            <p class="text"><strong>YOYUU Creative</strong> is a media agency based in New York City and Los Angeles, providing creative direction, mixed-media production, and content. Established in 2015, the agency is built on the belief that great design can help transform the experience. We advise companies on modern approaches to brand &amp; business challenges. Collaborating with leadership of organizations, we define and realize new vision through communication strategy, storytelling and design.</p>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <div class="past" id="past">
-    <a class="w-inline-block w-lightbox" href="#"><img class="lightbox" sizes="100vw" src="images/lightbox.png" srcset="images/lightbox-p-500x282.png 500w, images/lightbox-p-800x451.png 800w, images/lightbox-p-1080x608.png 1080w, images/lightbox-p-1600x901.png 1600w, images/lightbox-p-2000x1126.png 2000w, images/lightbox.png 3000w">
-      <script class="w-json" type="application/json">
-        { "items": [{
-          "type": "video",
-          "html": "<iframe class=\"embedly-embed\" src=\"https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fplayer.vimeo.com%2Fvideo%2F192081093%3Fautoplay%3D1&url=https%3A%2F%2Fvimeo.com%2F192081093&image=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F603324812_1280.jpg&key=c4e54deccf4d4ec997a64902e9a30300&autoplay=1&type=text%2Fhtml&schema=vimeo\" width=\"940\" height=\"529\" scrolling=\"no\" frameborder=\"0\" allowfullscreen></iframe>",
-          "thumbnailUrl": "https://i.embed.ly/1/image?url=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F603324812_1280.jpg&key=866738f8f18b4394a18e371517a66ae0",
-          "width": 940,
-          "height": 529
-        }, {
-          "type": "video",
-          "html": "<iframe class=\"embedly-embed\" src=\"https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fplayer.vimeo.com%2Fvideo%2F192081109%3Fautoplay%3D1&url=https%3A%2F%2Fvimeo.com%2F192081109&image=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F603323821_1280.jpg&key=c4e54deccf4d4ec997a64902e9a30300&autoplay=1&type=text%2Fhtml&schema=vimeo\" width=\"940\" height=\"529\" scrolling=\"no\" frameborder=\"0\" allowfullscreen></iframe>",
-          "thumbnailUrl": "https://i.embed.ly/1/image?url=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F603323821_1280.jpg&key=866738f8f18b4394a18e371517a66ae0",
-          "width": 940,
-          "height": 529
-        }, {
-          "_id": "582eb503bcca26c24626e69b",
-          "cdnUrl": "images/11.jpg",
-          "fileName": "11.jpg",
-          "origFileName": "11.jpg",
-          "width": 1600,
-          "height": 1067,
-          "fileSize": 1459617,
-          "type": "image",
-          "url": "images/11.jpg"
-        }, {
-          "_id": "582eb515e6a81595137368e2",
-          "cdnUrl": "images/22.jpg",
-          "fileName": "22.jpg",
-          "origFileName": "22.jpg",
-          "width": 1600,
-          "height": 1067,
-          "fileSize": 1376881,
-          "type": "image",
-          "url": "images/22.jpg"
-        }, {
-          "_id": "582eb52e46f50ecb6b88d164",
-          "cdnUrl": "images/33.jpg",
-          "fileName": "33.jpg",
-          "origFileName": "33.jpg",
-          "width": 1600,
-          "height": 1100,
-          "fileSize": 1582935,
-          "type": "image",
-          "url": "images/33.jpg"
-        }, {
-          "_id": "582eb53ff5562dd3132c2feb",
-          "cdnUrl": "images/44.jpg",
-          "fileName": "44.jpg",
-          "origFileName": "44.jpg",
-          "width": 1600,
-          "height": 1067,
-          "fileSize": 1128948,
-          "type": "image",
-          "url": "images/44.jpg"
-        }, {
-          "_id": "582eb550bcca26c24626e718",
-          "cdnUrl": "images/77.jpg",
-          "fileName": "77.jpg",
-          "origFileName": "77.jpg",
-          "width": 1600,
-          "height": 1067,
-          "fileSize": 3296866,
-          "type": "image",
-          "url": "images/77.jpg"
-        }, {
-          "_id": "582eb562e6a8159513736939",
-          "cdnUrl": "images/88.jpg",
-          "fileName": "88.jpg",
-          "origFileName": "88.jpg",
-          "width": 1600,
-          "height": 1067,
-          "fileSize": 2027852,
-          "type": "image",
-          "url": "images/88.jpg"
-        }, {
-          "_id": "582eb570bcca26c24626e72b",
-          "cdnUrl": "images/99.jpg",
-          "fileName": "99.jpg",
-          "origFileName": "99.jpg",
-          "width": 1600,
-          "height": 1067,
-          "fileSize": 1944676,
-          "type": "image",
-          "url": "images/99.jpg"
-        }, {
-          "_id": "582eb58ee6a8159513736949",
-          "cdnUrl": "images/1010.jpg",
-          "fileName": "1010.jpg",
-          "origFileName": "1010.jpg",
-          "width": 1600,
-          "height": 900,
-          "fileSize": 1825898,
-          "type": "image",
-          "url": "images/1010.jpg"
-        }, {
-          "_id": "582eb59d46f50ecb6b88d1a6",
-          "cdnUrl": "images/1111.jpg",
-          "fileName": "1111.jpg",
-          "origFileName": "1111.jpg",
-          "width": 1600,
-          "height": 1067,
-          "fileSize": 1334481,
-          "type": "image",
-          "url": "images/1111.jpg"
-        }, {
-          "_id": "582eb5b25cf9d5b76b35cb11",
-          "cdnUrl": "images/1212.jpg",
-          "fileName": "1212.jpg",
-          "origFileName": "1212.jpg",
-          "width": 1600,
-          "height": 900,
-          "fileSize": 1684100,
-          "type": "image",
-          "url": "images/1212.jpg"
-        }, {
-          "_id": "582eb5d0e6a8159513736970",
-          "cdnUrl": "images/1313.jpg",
-          "fileName": "1313.jpg",
-          "origFileName": "1313.jpg",
-          "width": 1600,
-          "height": 900,
-          "fileSize": 1779802,
-          "type": "image",
-          "url": "images/1313.jpg"
-        }, {
-          "_id": "582eb5de46f50ecb6b88d1ac",
-          "cdnUrl": "images/1414.jpg",
-          "fileName": "1414.jpg",
-          "origFileName": "1414.jpg",
-          "width": 1600,
-          "height": 900,
-          "fileSize": 1531750,
-          "type": "image",
-          "url": "images/1414.jpg"
-        }, {
-          "_id": "582eb5f046f50ecb6b88d1af",
-          "cdnUrl": "images/1515.jpg",
-          "fileName": "1515.jpg",
-          "origFileName": "1515.jpg",
-          "width": 1600,
-          "height": 1067,
-          "fileSize": 1493550,
-          "type": "image",
-          "url": "images/1515.jpg"
-        }, {
-          "_id": "582eb601e6a8159513736980",
-          "cdnUrl": "images/1616.jpg",
-          "fileName": "1616.jpg",
-          "origFileName": "1616.jpg",
-          "width": 1600,
-          "height": 1019,
-          "fileSize": 2697767,
-          "type": "image",
-          "url": "images/1616.jpg"
-        }, {
-          "_id": "582eb6125cf9d5b76b35cd86",
-          "cdnUrl": "images/1818.jpg",
-          "fileName": "1818.jpg",
-          "origFileName": "1818.jpg",
-          "width": 1600,
-          "height": 1066,
-          "fileSize": 1481323,
-          "type": "image",
-          "url": "images/1818.jpg"
-        }, {
-          "_id": "582eb621f5562dd3132c3034",
-          "cdnUrl": "images/1919.jpg",
-          "fileName": "1919.jpg",
-          "origFileName": "1919.jpg",
-          "width": 1600,
-          "height": 1066,
-          "fileSize": 958610,
-          "type": "image",
-          "url": "images/1919.jpg"
-        }, {
-          "_id": "582eb62ee6a81595137369bd",
-          "cdnUrl": "images/2020.jpg",
-          "fileName": "2020.jpg",
-          "origFileName": "2020.jpg",
-          "width": 1600,
-          "height": 1067,
-          "fileSize": 922866,
-          "type": "image",
-          "url": "images/2020.jpg"
-        }, {
-          "_id": "582eb63de6a81595137369c3",
-          "cdnUrl": "images/2121.jpg",
-          "fileName": "2121.jpg",
-          "origFileName": "2121.jpg",
-          "width": 1600,
-          "height": 1067,
-          "fileSize": 1337292,
-          "type": "image",
-          "url": "images/2121.jpg"
-        }, {
-          "_id": "582eb6505cf9d5b76b35cd8e",
-          "cdnUrl": "images/2222.jpg",
-          "fileName": "2222.jpg",
-          "origFileName": "2222.jpg",
-          "width": 1600,
-          "height": 900,
-          "fileSize": 1757836,
-          "type": "image",
-          "url": "images/2222.jpg"
-        }, {
-          "_id": "582eb661539fedd346d723d7",
-          "cdnUrl": "images/2323.jpg",
-          "fileName": "2323.jpg",
-          "origFileName": "2323.jpg",
-          "width": 1600,
-          "height": 475,
-          "fileSize": 1295542,
-          "type": "image",
-          "url": "images/2323.jpg"
-        }, {
-          "_id": "582eb672e6a81595137369d1",
-          "cdnUrl": "images/2424.jpg",
-          "fileName": "2424.jpg",
-          "origFileName": "2424.jpg",
-          "width": 1600,
-          "height": 1067,
-          "fileSize": 1823544,
-          "type": "image",
-          "url": "images/2424.jpg"
-        }, {
-          "_id": "582eb6895cf9d5b76b35cdab",
-          "cdnUrl": "images/2525.jpg",
-          "fileName": "2525.jpg",
-          "origFileName": "2525.jpg",
-          "width": 1600,
-          "height": 900,
-          "fileSize": 1511700,
-          "type": "image",
-          "url": "images/2525.jpg"
-        }, {
-          "_id": "582eb697bcca26c24626e75f",
-          "cdnUrl": "images/2626.jpg",
-          "fileName": "2626.jpg",
-          "origFileName": "2626.jpg",
-          "width": 1600,
-          "height": 900,
-          "fileSize": 1648323,
-          "type": "image",
-          "url": "images/2626.jpg"
-        }, {
-          "_id": "582eb6abe6a8159513736a09",
-          "cdnUrl": "images/2727.jpg",
-          "fileName": "2727.jpg",
-          "origFileName": "2727.jpg",
-          "width": 1335,
-          "height": 1600,
-          "fileSize": 2165180,
-          "type": "image",
-          "url": "images/2727.jpg"
-        }, {
-          "_id": "582eb6c0539fedd346d72450",
-          "cdnUrl": "images/IMG_3296.jpg",
-          "fileName": "IMG_3296.jpg",
-          "origFileName": "IMG_3296.jpg",
-          "width": 1600,
-          "height": 1067,
-          "fileSize": 1118916,
-          "type": "image",
-          "url": "images/IMG_3296.jpg"
-        }, {
-          "_id": "582eb6ec539fedd346d72456",
-          "cdnUrl": "images/IMG_3377.jpg",
-          "fileName": "IMG_3377.jpg",
-          "origFileName": "IMG_3377.jpg",
-          "width": 1600,
-          "height": 1067,
-          "fileSize": 1352278,
-          "type": "image",
-          "url": "images/IMG_3377.jpg"
-        }, {
-          "_id": "582eb70a539fedd346d7254b",
-          "cdnUrl": "images/IMG_3420.jpg",
-          "fileName": "IMG_3420.jpg",
-          "origFileName": "IMG_3420.jpg",
-          "width": 1600,
-          "height": 1067,
-          "fileSize": 1273210,
-          "type": "image",
-          "url": "images/IMG_3420.jpg"
-        }, {
-          "_id": "582eb735f5562dd3132c30bf",
-          "cdnUrl": "images/IMG_3470.jpg",
-          "fileName": "IMG_3470.jpg",
-          "origFileName": "IMG_3470.jpg",
-          "width": 1600,
-          "height": 1067,
-          "fileSize": 1285163,
-          "type": "image",
-          "url": "images/IMG_3470.jpg"
-        }, {
-          "_id": "582eb746f5562dd3132c3199",
-          "cdnUrl": "images/IMG_3515.jpg",
-          "fileName": "IMG_3515.jpg",
-          "origFileName": "IMG_3515.jpg",
-          "width": 1600,
-          "height": 1067,
-          "fileSize": 2420229,
-          "type": "image",
-          "url": "images/IMG_3515.jpg"
-        }, {
-          "_id": "582eb755e6a815951373748d",
-          "cdnUrl": "images/IMG_3565.jpg",
-          "fileName": "IMG_3565.jpg",
-          "origFileName": "IMG_3565.jpg",
-          "width": 1600,
-          "height": 1067,
-          "fileSize": 1856042,
-          "type": "image",
-          "url": "images/IMG_3565.jpg"
-        }, {
-          "_id": "582eb765bcca26c24626e771",
-          "cdnUrl": "images/IMG_9516.JPG",
-          "fileName": "IMG_9516.JPG",
-          "origFileName": "IMG_9516.JPG",
-          "width": 1600,
-          "height": 1200,
-          "fileSize": 1300146,
-          "type": "image",
-          "url": "images/IMG_9516.JPG"
-        }, {
-          "_id": "582eb77af5562dd3132c319b",
-          "cdnUrl": "images/IMG_9688.JPG",
-          "fileName": "IMG_9688.JPG",
-          "origFileName": "IMG_9688.JPG",
-          "width": 1600,
-          "height": 1200,
-          "fileSize": 291358,
-          "type": "image",
-          "url": "images/IMG_9688.JPG"
-        }, {
-          "_id": "582eb788e6a815951373753c",
-          "cdnUrl": "images/IMG_9818.JPG",
-          "fileName": "IMG_9818.JPG",
-          "origFileName": "IMG_9818.JPG",
-          "width": 1443,
-          "height": 2560,
-          "fileSize": 2892514,
-          "type": "image",
-          "url": "images/IMG_9818.JPG"
-        }] }
-      </script>
-    </a>
-  </div>
-  <div class="apply" id="apply">
+  <div id="past" class="past"><a href="#" class="w-inline-block w-lightbox"><img src="images/lightbox.png" srcset="images/lightbox-p-500x282.png 500w, images/lightbox-p-800x451.png 800w, images/lightbox-p-1080x608.png 1080w, images/lightbox-p-1600x901.png 1600w, images/lightbox-p-2000x1126.png 2000w, images/lightbox.png 3000w" sizes="100vw" class="lightbox"><script type="application/json" class="w-json">{
+  "items": [
+    {
+      "type": "video",
+      "html": "<iframe class=\"embedly-embed\" src=\"https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fplayer.vimeo.com%2Fvideo%2F192081093%3Fautoplay%3D1&url=https%3A%2F%2Fvimeo.com%2F192081093&image=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F603324812_1280.jpg&key=c4e54deccf4d4ec997a64902e9a30300&autoplay=1&type=text%2Fhtml&schema=vimeo\" width=\"940\" height=\"529\" scrolling=\"no\" frameborder=\"0\" allowfullscreen></iframe>",
+      "thumbnailUrl": "https://i.embed.ly/1/image?url=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F603324812_1280.jpg&key=866738f8f18b4394a18e371517a66ae0",
+      "width": 940,
+      "height": 529,
+      "originalUrl": "https://vimeo.com/192081093"
+    },
+    {
+      "type": "video",
+      "html": "<iframe class=\"embedly-embed\" src=\"https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fplayer.vimeo.com%2Fvideo%2F192081109%3Fautoplay%3D1&url=https%3A%2F%2Fvimeo.com%2F192081109&image=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F603323821_1280.jpg&key=c4e54deccf4d4ec997a64902e9a30300&autoplay=1&type=text%2Fhtml&schema=vimeo\" width=\"940\" height=\"529\" scrolling=\"no\" frameborder=\"0\" allowfullscreen></iframe>",
+      "thumbnailUrl": "https://i.embed.ly/1/image?url=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F603323821_1280.jpg&key=866738f8f18b4394a18e371517a66ae0",
+      "width": 940,
+      "height": 529,
+      "originalUrl": "https://vimeo.com/192081109"
+    },
+    {
+      "cdnUrl": "images/11.jpg",
+      "width": 1600,
+      "height": 1067,
+      "fileName": "11.jpg",
+      "origFileName": "11.jpg",
+      "url": "images/11.jpg",
+      "_id": "582eb503bcca26c24626e69b",
+      "type": "image",
+      "fileSize": 1459617
+    },
+    {
+      "cdnUrl": "images/22.jpg",
+      "width": 1600,
+      "height": 1067,
+      "fileName": "22.jpg",
+      "origFileName": "22.jpg",
+      "url": "images/22.jpg",
+      "_id": "582eb515e6a81595137368e2",
+      "type": "image",
+      "fileSize": 1376881
+    },
+    {
+      "cdnUrl": "images/33.jpg",
+      "width": 1600,
+      "height": 1100,
+      "fileName": "33.jpg",
+      "origFileName": "33.jpg",
+      "url": "images/33.jpg",
+      "_id": "582eb52e46f50ecb6b88d164",
+      "type": "image",
+      "fileSize": 1582935
+    },
+    {
+      "cdnUrl": "images/44.jpg",
+      "width": 1600,
+      "height": 1067,
+      "fileName": "44.jpg",
+      "origFileName": "44.jpg",
+      "url": "images/44.jpg",
+      "_id": "582eb53ff5562dd3132c2feb",
+      "type": "image",
+      "fileSize": 1128948
+    },
+    {
+      "cdnUrl": "images/77.jpg",
+      "width": 1600,
+      "height": 1067,
+      "fileName": "77.jpg",
+      "origFileName": "77.jpg",
+      "url": "images/77.jpg",
+      "_id": "582eb550bcca26c24626e718",
+      "type": "image",
+      "fileSize": 3296866
+    },
+    {
+      "cdnUrl": "images/88.jpg",
+      "width": 1600,
+      "height": 1067,
+      "fileName": "88.jpg",
+      "origFileName": "88.jpg",
+      "url": "images/88.jpg",
+      "_id": "582eb562e6a8159513736939",
+      "type": "image",
+      "fileSize": 2027852
+    },
+    {
+      "cdnUrl": "images/99.jpg",
+      "width": 1600,
+      "height": 1067,
+      "fileName": "99.jpg",
+      "origFileName": "99.jpg",
+      "url": "images/99.jpg",
+      "_id": "582eb570bcca26c24626e72b",
+      "type": "image",
+      "fileSize": 1944676
+    },
+    {
+      "cdnUrl": "images/1010.jpg",
+      "width": 1600,
+      "height": 900,
+      "fileName": "1010.jpg",
+      "origFileName": "1010.jpg",
+      "url": "images/1010.jpg",
+      "_id": "582eb58ee6a8159513736949",
+      "type": "image",
+      "fileSize": 1825898
+    },
+    {
+      "cdnUrl": "images/1111.jpg",
+      "width": 1600,
+      "height": 1067,
+      "fileName": "1111.jpg",
+      "origFileName": "1111.jpg",
+      "url": "images/1111.jpg",
+      "_id": "582eb59d46f50ecb6b88d1a6",
+      "type": "image",
+      "fileSize": 1334481
+    },
+    {
+      "cdnUrl": "images/1212.jpg",
+      "width": 1600,
+      "height": 900,
+      "fileName": "1212.jpg",
+      "origFileName": "1212.jpg",
+      "url": "images/1212.jpg",
+      "_id": "582eb5b25cf9d5b76b35cb11",
+      "type": "image",
+      "fileSize": 1684100
+    },
+    {
+      "cdnUrl": "images/1313.jpg",
+      "width": 1600,
+      "height": 900,
+      "fileName": "1313.jpg",
+      "origFileName": "1313.jpg",
+      "url": "images/1313.jpg",
+      "_id": "582eb5d0e6a8159513736970",
+      "type": "image",
+      "fileSize": 1779802
+    },
+    {
+      "cdnUrl": "images/1414.jpg",
+      "width": 1600,
+      "height": 900,
+      "fileName": "1414.jpg",
+      "origFileName": "1414.jpg",
+      "url": "images/1414.jpg",
+      "_id": "582eb5de46f50ecb6b88d1ac",
+      "type": "image",
+      "fileSize": 1531750
+    },
+    {
+      "cdnUrl": "images/1515.jpg",
+      "width": 1600,
+      "height": 1067,
+      "fileName": "1515.jpg",
+      "origFileName": "1515.jpg",
+      "url": "images/1515.jpg",
+      "_id": "582eb5f046f50ecb6b88d1af",
+      "type": "image",
+      "fileSize": 1493550
+    },
+    {
+      "cdnUrl": "images/1616.jpg",
+      "width": 1600,
+      "height": 1019,
+      "fileName": "1616.jpg",
+      "origFileName": "1616.jpg",
+      "url": "images/1616.jpg",
+      "_id": "582eb601e6a8159513736980",
+      "type": "image",
+      "fileSize": 2697767
+    },
+    {
+      "cdnUrl": "images/1818.jpg",
+      "width": 1600,
+      "height": 1066,
+      "fileName": "1818.jpg",
+      "origFileName": "1818.jpg",
+      "url": "images/1818.jpg",
+      "_id": "582eb6125cf9d5b76b35cd86",
+      "type": "image",
+      "fileSize": 1481323
+    },
+    {
+      "cdnUrl": "images/1919.jpg",
+      "width": 1600,
+      "height": 1066,
+      "fileName": "1919.jpg",
+      "origFileName": "1919.jpg",
+      "url": "images/1919.jpg",
+      "_id": "582eb621f5562dd3132c3034",
+      "type": "image",
+      "fileSize": 958610
+    },
+    {
+      "cdnUrl": "images/2020.jpg",
+      "width": 1600,
+      "height": 1067,
+      "fileName": "2020.jpg",
+      "origFileName": "2020.jpg",
+      "url": "images/2020.jpg",
+      "_id": "582eb62ee6a81595137369bd",
+      "type": "image",
+      "fileSize": 922866
+    },
+    {
+      "cdnUrl": "images/2121.jpg",
+      "width": 1600,
+      "height": 1067,
+      "fileName": "2121.jpg",
+      "origFileName": "2121.jpg",
+      "url": "images/2121.jpg",
+      "_id": "582eb63de6a81595137369c3",
+      "type": "image",
+      "fileSize": 1337292
+    },
+    {
+      "cdnUrl": "images/2222.jpg",
+      "width": 1600,
+      "height": 900,
+      "fileName": "2222.jpg",
+      "origFileName": "2222.jpg",
+      "url": "images/2222.jpg",
+      "_id": "582eb6505cf9d5b76b35cd8e",
+      "type": "image",
+      "fileSize": 1757836
+    },
+    {
+      "cdnUrl": "images/2323.jpg",
+      "width": 1600,
+      "height": 475,
+      "fileName": "2323.jpg",
+      "origFileName": "2323.jpg",
+      "url": "images/2323.jpg",
+      "_id": "582eb661539fedd346d723d7",
+      "type": "image",
+      "fileSize": 1295542
+    },
+    {
+      "cdnUrl": "images/2424.jpg",
+      "width": 1600,
+      "height": 1067,
+      "fileName": "2424.jpg",
+      "origFileName": "2424.jpg",
+      "url": "images/2424.jpg",
+      "_id": "582eb672e6a81595137369d1",
+      "type": "image",
+      "fileSize": 1823544
+    },
+    {
+      "cdnUrl": "images/2525.jpg",
+      "width": 1600,
+      "height": 900,
+      "fileName": "2525.jpg",
+      "origFileName": "2525.jpg",
+      "url": "images/2525.jpg",
+      "_id": "582eb6895cf9d5b76b35cdab",
+      "type": "image",
+      "fileSize": 1511700
+    },
+    {
+      "cdnUrl": "images/2626.jpg",
+      "width": 1600,
+      "height": 900,
+      "fileName": "2626.jpg",
+      "origFileName": "2626.jpg",
+      "url": "images/2626.jpg",
+      "_id": "582eb697bcca26c24626e75f",
+      "type": "image",
+      "fileSize": 1648323
+    },
+    {
+      "cdnUrl": "images/2727.jpg",
+      "width": 1335,
+      "height": 1600,
+      "fileName": "2727.jpg",
+      "origFileName": "2727.jpg",
+      "url": "images/2727.jpg",
+      "_id": "582eb6abe6a8159513736a09",
+      "type": "image",
+      "fileSize": 2165180
+    },
+    {
+      "cdnUrl": "images/IMG_3296.jpg",
+      "width": 1600,
+      "height": 1067,
+      "fileName": "IMG_3296.jpg",
+      "origFileName": "IMG_3296.jpg",
+      "url": "images/IMG_3296.jpg",
+      "_id": "582eb6c0539fedd346d72450",
+      "type": "image",
+      "fileSize": 1118916
+    },
+    {
+      "cdnUrl": "images/IMG_3377.jpg",
+      "width": 1600,
+      "height": 1067,
+      "fileName": "IMG_3377.jpg",
+      "origFileName": "IMG_3377.jpg",
+      "url": "images/IMG_3377.jpg",
+      "_id": "582eb6ec539fedd346d72456",
+      "type": "image",
+      "fileSize": 1352278
+    },
+    {
+      "cdnUrl": "images/IMG_3420.jpg",
+      "width": 1600,
+      "height": 1067,
+      "fileName": "IMG_3420.jpg",
+      "origFileName": "IMG_3420.jpg",
+      "url": "images/IMG_3420.jpg",
+      "_id": "582eb70a539fedd346d7254b",
+      "type": "image",
+      "fileSize": 1273210
+    },
+    {
+      "cdnUrl": "images/IMG_3470.jpg",
+      "width": 1600,
+      "height": 1067,
+      "fileName": "IMG_3470.jpg",
+      "origFileName": "IMG_3470.jpg",
+      "url": "images/IMG_3470.jpg",
+      "_id": "582eb735f5562dd3132c30bf",
+      "type": "image",
+      "fileSize": 1285163
+    },
+    {
+      "cdnUrl": "images/IMG_3515.jpg",
+      "width": 1600,
+      "height": 1067,
+      "fileName": "IMG_3515.jpg",
+      "origFileName": "IMG_3515.jpg",
+      "url": "images/IMG_3515.jpg",
+      "_id": "582eb746f5562dd3132c3199",
+      "type": "image",
+      "fileSize": 2420229
+    },
+    {
+      "cdnUrl": "images/IMG_3565.jpg",
+      "width": 1600,
+      "height": 1067,
+      "fileName": "IMG_3565.jpg",
+      "origFileName": "IMG_3565.jpg",
+      "url": "images/IMG_3565.jpg",
+      "_id": "582eb755e6a815951373748d",
+      "type": "image",
+      "fileSize": 1856042
+    },
+    {
+      "cdnUrl": "images/IMG_9516.JPG",
+      "width": 1600,
+      "height": 1200,
+      "fileName": "IMG_9516.JPG",
+      "origFileName": "IMG_9516.JPG",
+      "url": "images/IMG_9516.JPG",
+      "_id": "582eb765bcca26c24626e771",
+      "type": "image",
+      "fileSize": 1300146
+    },
+    {
+      "cdnUrl": "images/IMG_9688.JPG",
+      "width": 1600,
+      "height": 1200,
+      "fileName": "IMG_9688.JPG",
+      "origFileName": "IMG_9688.JPG",
+      "url": "images/IMG_9688.JPG",
+      "_id": "582eb77af5562dd3132c319b",
+      "type": "image",
+      "fileSize": 291358
+    },
+    {
+      "cdnUrl": "images/IMG_9818.JPG",
+      "width": 1443,
+      "height": 2560,
+      "fileName": "IMG_9818.JPG",
+      "origFileName": "IMG_9818.JPG",
+      "url": "images/IMG_9818.JPG",
+      "_id": "582eb788e6a815951373753c",
+      "type": "image",
+      "fileSize": 2892514
+    }
+  ]
+}</script></a></div>
+  <div id="apply" class="apply">
     <div class="content w-container">
-      <p class="applytext">10 day workshop kicks off
-        <br><strong>July 6 - July 15, 2017</strong>
-      </p>
-      <p class="marginbottom subtitle">“From different parts of the world we came, we collaborated, we imagined, we designed, we built, and we made magic at Pershing Square. Truly an experience that I will never forget.”
-        <br>
-        <br>Karla Marukoglu, AAVSLA Alumni</p>
+      <p class="applytext">10 day workshop kicks off<br><strong>July 6 - July 15, 2017</strong></p>
+      <p class="marginbottom subtitle">“From different parts of the world we came, we collaborated, we imagined, we designed, we built, and we made magic at Pershing Square. Truly an experience that I will never forget.”<br><br>Karla Marukoglu, AAVSLA Alumni</p>
       <div class="form w-form">
-        <form data-name="Email Form" id="email-form" method="post" name="email-form">
+        <form id="email-form" name="email-form" data-name="Email Form" method="post">
           <div class="w-row">
-            <div class="w-col w-col-4">
-              <input class="input w-input" data-name="Name" id="Name" maxlength="256" name="Name" placeholder="First &amp; Last name" required="required" type="text">
-            </div>
-            <div class="w-col w-col-4">
-              <input class="input w-input" data-name="Email" id="email" maxlength="256" name="email" placeholder="Email address" required="required" type="email">
-            </div>
-            <div class="w-col w-col-4">
-              <input class="button fullwidth w-button" data-wait="Submitting..." type="submit" value="Enquire">
-            </div>
+            <div class="w-col w-col-4"><input type="text" id="Name" name="Name" data-name="Name" placeholder="First &amp; Last name" maxlength="256" required="" class="input w-input"></div>
+            <div class="w-col w-col-4"><input type="email" id="email" name="email" data-name="Email" placeholder="Email address" maxlength="256" required="" class="input w-input"></div>
+            <div class="w-col w-col-4"><input type="submit" value="Enquire" data-wait="Submitting..." class="button fullwidth w-button"></div>
           </div>
         </form>
         <div class="formsuccess w-form-done">
@@ -673,28 +685,26 @@
       </div>
     </div>
     <div class="footer w-container">
-      <div class="social"><a class="sociallink" href="https://www.instagram.com/aavsla/" target="_blank"></a><a class="sociallink" href="http://www.facebook.com/AAVSLosAngeles/" target="_blank"></a>
-      </div>
-      <p class="footertext">Architectural Association School of Architecture © 2016 • Site built by <a target="_blank" href="http://cheeyoon.com/" class="link lightlink">Cheeyoon</a>
-      </p>
+      <div class="social"><a target="_blank" href="https://www.instagram.com/aavsla/" class="sociallink"></a><a target="_blank" href="http://www.facebook.com/AAVSLosAngeles/" class="sociallink"></a></div>
+      <p class="footertext">Architectural Association School of Architecture © 2016 • Site built by <a target="_blank" href="http://cheeyoon.com/" class="lightlink link">Cheeyoon</a></p>
     </div>
   </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js" type="text/javascript"></script>
   <script src="js/webflow.js" type="text/javascript"></script>
   <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
   <style>
-    ::-webkit-input-placeholder { /* WebKit browsers */
-        color: #FFFFFF !important;
-    }
-    :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-        color: #FFFFFF !important;
-    }
-    ::-moz-placeholder { /* Mozilla Firefox 19+ */
-        color: #FFFFFF !important;
-    }
-    :-ms-input-placeholder { /* Internet Explorer 10+ */
-        color: #FFFFFF !important;
-    }
-  </style>
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: #FFFFFF !important;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #FFFFFF !important;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #FFFFFF !important;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #FFFFFF !important;
+}
+</style>
 </body>
 </html>
