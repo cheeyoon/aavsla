@@ -126,6 +126,10 @@
   margin-left: 10px;
 }
 
+.text.people {
+  text-align: center;
+}
+
 .form {
   display: block;
   width: 100%;
@@ -280,8 +284,8 @@
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-image: -webkit-linear-gradient(270deg, rgba(255, 0, 194, .7), rgba(255, 140, 4, .7));
-  background-image: linear-gradient(180deg, rgba(255, 0, 194, .7), rgba(255, 140, 4, .7));
+  background-image: -webkit-linear-gradient(270deg, cyan -2%, rgba(215, 255, 4, .7));
+  background-image: linear-gradient(180deg, cyan -2%, rgba(215, 255, 4, .7));
 }
 
 .input {
@@ -356,7 +360,7 @@
   position: relative;
   left: 0px;
   right: 0px;
-  bottom: -15%;
+  bottom: -10%;
   margin-right: auto;
   margin-left: auto;
   -webkit-box-pack: center;
@@ -592,6 +596,43 @@
 .schedulesvg {
   max-width: 150%;
   margin-top: 50px;
+}
+
+.linkimg {
+  display: block;
+  width: 150px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.peoplelink {
+  display: block;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-family: Fontawesome, sans-serif;
+  color: #505050;
+  text-align: center;
+  text-decoration: none;
+}
+
+.div-block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 html.w-mod-js *[data-ix="slide-down"] {
