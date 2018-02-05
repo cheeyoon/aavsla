@@ -93,6 +93,10 @@
   padding-bottom: 50px;
 }
 
+.content.cover {
+  padding-top: 75px;
+}
+
 .content.margintop {
   padding-top: 100px;
   padding-bottom: 50px;
@@ -460,16 +464,6 @@
   cursor: pointer;
 }
 
-.linkblack {
-  color: #000;
-  font-weight: 600;
-  text-decoration: none;
-}
-
-.linkblack:hover {
-  border-bottom: 1px solid #000;
-}
-
 .placetext {
   position: absolute;
   z-index: 5;
@@ -491,246 +485,6 @@
   line-height: 65px;
   font-weight: 300;
   text-align: center;
-}
-
-.cardwrapper {
-  height: 400px;
-}
-
-.imgcard {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  right: 0px;
-  height: 400px;
-}
-
-.aboutcard {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  right: 0px;
-  z-index: 0;
-  height: 400px;
-  border-bottom: 5px solid #000;
-  background-image: -webkit-linear-gradient(270deg, #fff, #fff);
-  background-image: linear-gradient(180deg, #fff, #fff);
-  opacity: 0;
-  -webkit-transition: opacity 1000ms ease;
-  transition: opacity 1000ms ease;
-}
-
-.aboutcard:hover {
-  opacity: 1;
-}
-
-.profile1 {
-  display: block;
-  width: 250px;
-  height: 250px;
-  margin-top: 75px;
-  margin-right: auto;
-  margin-left: auto;
-  background-image: url('../images/eulalia.jpg');
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-}
-
-.profile2 {
-  display: block;
-  width: 250px;
-  height: 250px;
-  margin-top: 75px;
-  margin-right: auto;
-  margin-left: auto;
-  background-image: url('../images/devin.jpg');
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.profile3 {
-  display: block;
-  width: 250px;
-  height: 250px;
-  margin-top: 75px;
-  margin-right: auto;
-  margin-left: auto;
-  background-image: url('../images/karla.jpg');
-  background-position: 50% 0px;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.profile4 {
-  display: block;
-  width: 250px;
-  height: 250px;
-  margin-top: 75px;
-  margin-right: auto;
-  margin-left: auto;
-  background-image: url('../images/jordan.jpg');
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.profile5 {
-  display: block;
-  width: 250px;
-  height: 250px;
-  margin-top: 75px;
-  margin-right: auto;
-  margin-left: auto;
-  background-image: url('../images/kevin.jpg');
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.profile6 {
-  display: block;
-  width: 250px;
-  height: 250px;
-  margin-top: 75px;
-  margin-right: auto;
-  margin-left: auto;
-  background-image: url('../images/hamzah.jpg');
-  background-position: 50% 15%;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.profile7 {
-  display: block;
-  width: 250px;
-  height: 250px;
-  margin-top: 75px;
-  margin-right: auto;
-  margin-left: auto;
-  background-image: url('../images/eduardo.jpg');
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.profile {
-  display: block;
-  width: 250px;
-  height: 250px;
-  margin-top: 75px;
-  margin-right: auto;
-  margin-left: auto;
-  background-image: url('../images/cheeyoon.jpg');
-  background-position: 50% 50%;
-  background-size: 300px;
-  background-repeat: no-repeat;
-}
-
-.profile._9 {
-  background-image: url('../images/karla.jpg');
-  background-position: 50% 0px;
-  background-size: cover;
-}
-
-.company1 {
-  height: 400px;
-  background-image: url('../images/sa.png');
-  background-position: 50% 50%;
-  background-size: 150px;
-  background-repeat: no-repeat;
-}
-
-.company2 {
-  height: 400px;
-  background-image: url('../images/houdini.png');
-  background-position: 50% 50%;
-  background-size: 200px;
-  background-repeat: no-repeat;
-}
-
-.company3 {
-  height: 400px;
-  background-image: url('../images/goldenvoice.png');
-  background-position: 50% 50%;
-  background-size: 200px;
-  background-repeat: no-repeat;
-}
-
-.company4 {
-  height: 400px;
-  background-image: url('../images/wnl.png');
-  background-position: 50% 50%;
-  background-size: 150px;
-  background-repeat: no-repeat;
-}
-
-.company5 {
-  height: 400px;
-  background-image: url('../images/VRLA_logo.png');
-  background-position: 50% 50%;
-  background-size: 150px;
-  background-repeat: no-repeat;
-}
-
-.company6 {
-  height: 400px;
-  background-image: url('../images/redhouse.png');
-  background-position: 50% 50%;
-  background-size: 200px;
-  background-repeat: no-repeat;
-}
-
-.company7 {
-  height: 400px;
-  background-image: url('../images/rue.png');
-  background-position: 50% 50%;
-  background-size: 150px;
-  background-repeat: no-repeat;
-}
-
-.company8 {
-  height: 400px;
-  background-image: url('../images/navel.png');
-  background-position: 50% 50%;
-  background-size: 150px;
-  background-repeat: no-repeat;
-}
-
-.company9 {
-  height: 400px;
-  background-image: url('../images/YOYUU_logo.png');
-  background-position: 50% 50%;
-  background-size: 200px;
-  background-repeat: no-repeat;
-}
-
-.profile9 {
-  display: block;
-  width: 250px;
-  height: 250px;
-  margin-top: 75px;
-  margin-right: auto;
-  margin-left: auto;
-  background-image: url('../images/alex.jpg');
-  background-position: 50% 50%;
-  background-size: 250px;
-  background-repeat: no-repeat;
-}
-
-.profile10 {
-  display: block;
-  width: 250px;
-  height: 250px;
-  margin-top: 75px;
-  margin-right: auto;
-  margin-left: auto;
-  background-image: url('../images/roger.jpg');
-  background-position: 50% 50%;
-  background-size: 250px;
-  background-repeat: no-repeat;
 }
 
 .titleblock {
@@ -763,19 +517,6 @@
   color: #fff;
 }
 
-.subheading {
-  font-family: 'Open Sans', sans-serif;
-  color: #000;
-  font-size: 18px;
-  line-height: 30px;
-  font-weight: 300;
-  letter-spacing: 2px;
-}
-
-.subheading.white {
-  color: #fff;
-}
-
 .aavsla2017 {
   width: 100vw;
   height: 100vh;
@@ -794,13 +535,6 @@
   height: 1px;
   margin: 50px 10px;
   border-bottom: 1px solid #000;
-}
-
-.line.small {
-  width: 50px;
-  margin-top: 25px;
-  margin-right: 10px;
-  float: right;
 }
 
 .partners {
