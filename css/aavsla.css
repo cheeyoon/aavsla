@@ -636,6 +636,10 @@
   align-items: center;
 }
 
+.youtube {
+  margin-bottom: -5px;
+}
+
 html.w-mod-js *[data-ix="slide-down"] {
   opacity: 0;
   -webkit-transform: translate(0px, -100px);
@@ -713,7 +717,6 @@ html.w-mod-js *[data-ix="slide-up-4"] {
     margin-top: 75px;
   }
   .about {
-    height: 1500px;
     background-image: none;
   }
   .apply {
