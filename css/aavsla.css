@@ -90,6 +90,7 @@
 
 .content {
   position: relative;
+  z-index: 5;
   padding-top: 150px;
   padding-bottom: 50px;
 }
@@ -285,8 +286,6 @@
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-image: -webkit-linear-gradient(270deg, cyan -2%, rgba(215, 255, 4, .7));
-  background-image: linear-gradient(180deg, cyan -2%, rgba(215, 255, 4, .7));
 }
 
 .input {
@@ -362,6 +361,7 @@
   left: 0px;
   right: 0px;
   bottom: -10%;
+  z-index: 5;
   margin-right: auto;
   margin-left: auto;
   -webkit-box-pack: center;
@@ -638,6 +638,22 @@
 
 .youtube {
   margin-bottom: -5px;
+}
+
+.lightbox {
+  background-color: #000;
+}
+
+.lightboxlink {
+  width: 25%;
+}
+
+.lightboximage {
+  width: 100%;
+}
+
+.footervid {
+  position: absolute;
 }
 
 html.w-mod-js *[data-ix="slide-down"] {
